@@ -1,0 +1,9 @@
+{
+  "servers": {
+    "calculator": {
+      "url": "http://localhost:9001/sse",
+      "type": "http"
+    }
+  },
+  "inputs": []
+}

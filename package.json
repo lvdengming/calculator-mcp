@@ -5,14 +5,19 @@
   "license": "MIT",
   "author": "lvdengming@foxmail.com",
   "main": "src/index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node src/index.js"
   },
   "keywords": [
     "calculator",
     "mcp",
     "demo"
   ],
+  "dependencies": {
+    "fastmcp": "^4.0.1",
+    "zod": "^4.4.3"
+  },
   "devDependencies": {
     "prettier-plugin-package": "^2.0.0"
   },
